@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(6, 6, 112);
+    color:white;
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+}
+.navbar{
+    background-color: white;
+    padding: 1%;
+    border-radius: 0;
+}
+#navbar-collapse li a{
+    color: black;
+    font-size: 1.3em;
+}
+#navbar-collapse li a:hover{
+    background-color: blue;
+    color: white;
+}
+.navbar-brand{
+    margin: -30px auto 30px;
+}
+.navbar-brand h1{
+    color: black;
+}
+/*style main*/
+h3.menu-title{
+    color: blue;
+    font-size: 1.5em;
+}
+.menu{
+    background-color: white;
+    color:black;
+    border-radius: 20px;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 2% 1%;
+    padding: 1%;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+@media (max-width:767px){
+    .col-xs-12{
+        width: 90%;
+        margin: 5%;
+    }
+}
